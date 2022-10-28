@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div class="calculator__display">0</div>
+      </div>
+      <div class="calculator__keys">
+        <div class="btn">
+          <button data-action="clear" class="delete">AC</button>
+          <button class="operator" data-action="divide">/</button>
+        </div>
+        <div class="btn">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="operator" data-action="multiply">*</button>
+        </div>
+        <div class="btn">
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="operator" data-action="subtract">-</button>
+        </div>
+        <div class="btn">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button data-action="add" class="btn-piu operator">+</button>
+        </div>
+        <div class="btn">
+          <button class="zero">0</button>
+          <button class="decimal" data-action="decimal">.</button>
+          <button class="operator calculate" data-action="calculate">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="/javascript/app.js" async defer></script>
+  </body>
+</html>

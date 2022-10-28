@@ -1,0 +1,56 @@
+.btn {
+  display: flex;
+}
+.calculator__keys {
+  display: flex;
+  flex-direction: column;
+}
+.calculator {
+  max-width: 300px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #2b262c;
+  color: #f5f2f5;
+}
+button {
+  padding: 30px;
+  background-color: #656469;
+  color: #e8e8e8;
+  border: #2e2c2f solid 1px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.delete {
+  padding: 30px 96px;
+  background-color: #403e44;
+}
+.decimal {
+    padding: 30px 33px;
+}
+.calculate {
+    padding: 30px 28px;
+}
+.zero {
+  padding: 30px 68px;
+}
+.calculator__display {
+  font-size: 50px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.btn-piu {
+  padding: 30px 27px;
+}
+.operator {
+  background-color: #ff9f09;
+}
+button:hover {
+  background-color: #78777d;
+}
+.operator:hover {
+  background-color: #eda532;
+}
+.delete:hover {
+    background-color: #4b494e;
+}
